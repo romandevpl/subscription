@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  app:
+    ports:
+      - 9000:9000
+    image: "app"
+    build: ./subscriptionSystem/
+  email:
+    ports:
+      - 8090:8090
+      - 587:587
+    image: "email"
+    build: ./emailService/
+  subscription:
+    ports:
+      - 8080:8080
+    image: "subscription"
+    build: ./subscriptionService/
