@@ -24,3 +24,8 @@ Used libraries and technologies :
 - Docker compose
 - Lombok 
 - Maven
+
+
+***Swagger***
+
+Swagger UI : http://localhost:9000/swagger-ui.html
